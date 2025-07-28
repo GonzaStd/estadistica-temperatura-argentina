@@ -7,7 +7,7 @@ Este es un proyecto de análisis de datos en Octave/MATLAB para datos histórico
 
 ### Pipeline de Procesamiento de Datos
 El código sigue un pipeline estructurado de 10 pasos en `prueba.m`:
-1. **Carga de CSV**: Usa `textscan()` cogitn delimitador punto y coma para formato CSV europeo
+1. **Carga de CSV**: Usa `textscan()` con delimitador punto y coma para formato CSV europeo
 2. **Procesamiento de Strings**: Convierte decimales con coma a punto (`strrep(data, ',', '.')`)
 3. **Mapeo de Meses**: Convierte nombres de meses en español a índices numéricos (1-12)
 4. **Filtrado de Datos**: Usa indexación lógica (`variable(valido)`) para remover valores NaN
